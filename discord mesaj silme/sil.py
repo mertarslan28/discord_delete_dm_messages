@@ -1,8 +1,12 @@
 import pyautogui
 import time
 
-for _ in range(200):
-    pyautogui.click(791, 872)
+count = 100
+x = 797 
+y = 820
+
+for _ in range(count):
+    pyautogui.click(x, y)
 
     pyautogui.press('up')
     time.sleep(0.3)
